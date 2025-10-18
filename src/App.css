@@ -1,0 +1,102 @@
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #8e3a59; 
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calculator {
+  background-color: #fbdeff; 
+  border: none;
+  border-radius: 16px;
+  margin: 0 auto;
+  max-width: 450px;
+  padding: 20px;
+  width: 100%;
+}
+
+.display {
+  background-color: #f183a6; 
+  color: #ffffff; 
+  font-size: 2rem;
+  margin-bottom: 20px;
+  padding: 23px;
+  text-align: right;
+  width: 100%;        
+  border-radius: 8px; 
+  border: none;       
+  box-sizing: border-box;
+}
+
+.buttons {
+  grid-gap: 12px;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+  background-color: #f29bb2; 
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.3rem;
+  padding: 15px;
+  gap: 12px;
+  border: none;
+}
+
+.number:hover {
+  background-color: #f5b8c8; 
+}
+
+.operator {
+  background: #e86a92; 
+  border: none;
+  color: #fff;
+}
+
+.operator:hover {
+  background: #d95c84;
+}
+
+.equal {
+  background: #8e3a59;
+  border: none;
+  color: #fff;
+}
+
+.equal:hover {
+  background: #6c2844;
+}
+
+.clear {
+  background: #e57373; 
+  border: none;
+  color: #fff;
+}
+
+.clear:hover {
+  background: #c62828;
+}
+
+.surname-btn {
+  margin-top: 30px;
+}
+
+.surname-btn button {
+  width: 100%;
+  background-color: #e86a92; 
+  border: none;
+  color: #fff;
+}
+
+.surname-btn button:hover {
+  background: #d95c84;
+}
